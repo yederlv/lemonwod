@@ -28,7 +28,7 @@ function SummaryPopup({ guesses, wordOfTheDay, description }) {
   const handleCopy = () => {
     const attemptCount = guesses.filter((guess) => guess).length;
     const resultEmoji = generateResultEmoji();
-    const textToCopy = `LEMON WOD 🍋 #${wordInfo.id} ${attemptCount}/6\n\n${resultEmoji}\n\nhttps://lapalabradeldia.com/`;
+    const textToCopy = `LEMON WOD 🍋 #${wordInfo.id} ${attemptCount}/6\n\n${resultEmoji}\n\nhttps://yederlv.github.io/lemonwod/`;
 
     // Copiar al portapapeles
     navigator.clipboard.writeText(textToCopy).then(
