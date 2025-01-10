@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# 🍋 Lemon WOD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lemon WOD es un juego diario de palabras inspirado en "La Palabra del Día". El objetivo es adivinar la palabra oculta de 5 letras en un máximo de 6 intentos. El proyecto incluye características como colores visuales para indicar progreso, un temporizador para la próxima palabra, y una experiencia interactiva optimizada.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📂 Estructura de Archivos
 
-### `npm start`
+```plaintext
+lemon-wod/
+├── public/                 # Archivos estáticos
+│   ├── index.html          # Archivo base HTML
+│   └── favicon.ico         # Icono del sitio
+├── src/                    # Código fuente principal
+│   ├── components/         # Componentes reutilizables
+│   │   ├── Game.js         # Lógica principal del juego
+│   │   ├── GameGrid.js     # Grilla interactiva del juego
+│   │   ├── Header.js       # Encabezado con título y contador
+│   │   ├── Instructions.js # Pantalla de instrucciones
+│   │   ├── Keyboard.js     # Teclado virtual
+│   │   ├── SummaryPopup.js # Pantalla final de resumen
+│   │   ├── Timer.js        # Temporizador de nueva palabra
+│   └── data/               # Datos del juego
+│       └── words.json      # Palabras del día y descripciones
+│   ├── styles/             # Archivos de estilos CSS
+│   │   ├── GameGrid.css    # Estilos de la grilla
+│   │   ├── Header.css      # Estilos del encabezado
+│   │   ├── Instructions.css # Estilos de la pantalla de instrucciones
+│   │   ├── Keyboard.css    # Estilos del teclado
+│   │   ├── SummaryPopup.css # Estilos del resumen
+│   └── App.js              # Configuración y estructura principal del proyecto
+│   └── index.js            # Punto de entrada de React
+├── README.md               # Documentación del proyecto
+├── package.json            # Dependencias y scripts del proyecto
+├── .gitignore              # Archivos y carpetas a ignorar por Git
+└── yarn.lock               # Archivo de control de versiones de Yarn
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Instalación y Despliegue en Local
 
-### `npm test`
+Sigue los pasos para configurar y ejecutar el proyecto en tu entorno local:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clonar el Repositorio
 
-### `npm run build`
+```bash
+git clone git@github.com:tuusuario/lemon-wod.git
+cd lemon-wod
+2. Instalar Dependencias
+Usa npm o yarn para instalar las dependencias:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Con npm
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Con yarn
+yarn install
+3. Ejecutar el Proyecto en Local
+# Con npm
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Con yarn
+yarn start
+El proyecto estará disponible en http://localhost:3000.
 
-### `npm run eject`
+🎨 Características del Proyecto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✅ Lógica del Juego
+Adivina la palabra oculta de 5 letras en un máximo de 6 intentos.
+Sistema de colores:
+🟩 Verde: Letra correcta en la posición correcta.
+🟨 Amarillo: Letra correcta en una posición incorrecta.
+⬛ Gris: Letra incorrecta.
+✅ Palabra del Día
+Cada día hay una nueva palabra que se almacena en el archivo words.json.
+La palabra del día incluye un ID y una breve descripción.
+✅ Pantalla de Resumen
+Muestra el progreso del jugador con emojis 🟩🟨⬛.
+Botón para copiar el progreso y compartir en redes sociales.
+Temporizador que indica el tiempo restante para la próxima palabra.
+✅ Responsividad
+Diseño adaptado para pantallas de escritorio y dispositivos móviles.
+🚀 Despliegue en Producción
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Puedes desplegar el proyecto fácilmente en servicios como Netlify, Vercel o GitHub Pages.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Usando Vercel:
+Instalar el CLI de Vercel:
+npm install -g vercel
+Ejecutar el comando de despliegue:
+vercel
+Sigue las instrucciones para completar el despliegue.
+🛡️ Licencia
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este proyecto está bajo la licencia MIT. Siéntete libre de usarlo, modificarlo y contribuir.
 
-## Learn More
+📬 Contacto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Si tienes dudas, sugerencias o quieres contribuir al proyecto:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: @yederlv
+Twitter: @yederdev
+Instagram: @tyeder.dev
+¡Gracias por jugar a 🍋 Lemon WOD 🍋!
