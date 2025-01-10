@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lemomwod/build/static/css/main.1163f9e9.css",
-    "main.js": "/lemomwod/build/static/js/main.ce604f65.js",
-    "static/js/488.7ddcc4ab.chunk.js": "/lemomwod/build/static/js/488.7ddcc4ab.chunk.js",
-    "index.html": "/lemomwod/build/index.html",
-    "main.1163f9e9.css.map": "/lemomwod/build/static/css/main.1163f9e9.css.map",
-    "main.ce604f65.js.map": "/lemomwod/build/static/js/main.ce604f65.js.map",
-    "488.7ddcc4ab.chunk.js.map": "/lemomwod/build/static/js/488.7ddcc4ab.chunk.js.map"
+    "main.css": "/lemomwod/static/css/main.1163f9e9.css",
+    "main.js": "/lemomwod/static/js/main.d5d57abe.js",
+    "static/js/488.7ddcc4ab.chunk.js": "/lemomwod/static/js/488.7ddcc4ab.chunk.js",
+    "index.html": "/lemomwod/index.html",
+    "main.1163f9e9.css.map": "/lemomwod/static/css/main.1163f9e9.css.map",
+    "main.d5d57abe.js.map": "/lemomwod/static/js/main.d5d57abe.js.map",
+    "488.7ddcc4ab.chunk.js.map": "/lemomwod/static/js/488.7ddcc4ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1163f9e9.css",
-    "static/js/main.ce604f65.js"
+    "static/js/main.d5d57abe.js"
   ]
 }
