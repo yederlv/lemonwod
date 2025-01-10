@@ -1,0 +1,37 @@
+.grid {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  
+  .grid-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+  }
+  
+  .grid-item {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5em;
+    color: #ffffff;
+    border: 2px solid #a1a1a1;
+    background-color: #1c1c1e;
+  }
+  
+  .grid-item.green {
+    background-color: #34c759;
+  }
+  
+  .grid-item.yellow {
+    background-color: #ffc107;
+  }
+  
+  .grid-item.gray {
+    background-color: #3a3a3a;
+  }
+  

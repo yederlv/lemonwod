@@ -1,0 +1,192 @@
+/* General container for the instructions screen */
+.instructions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #ffffff;
+  background-color: #121212; /* Fondo oscuro para mejor contraste */
+  box-sizing: border-box; /* Asegura que los paddings no afecten el tamaño */
+}
+
+/* Title styles */
+.game-title {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Permite que el título se adapte en dispositivos pequeños */
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.title-box {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px 15px;
+  margin: 5px; /* Ajuste de margen para evitar colapsos en pantallas pequeñas */
+  border-radius: 5px;
+}
+
+.title-box.green {
+  background-color: #34c759; /* Green for "PALABRA" */
+}
+
+.title-box.yellow {
+  background-color: #ffcc00; /* Yellow for "DEL" */
+}
+
+/* Content section */
+.instructions-content {
+  text-align: center; /* Centra todo el contenido */
+  font-size: 1em;
+  line-height: 1.6;
+  width: 90%; /* Asegura un ajuste dinámico en pantallas pequeñas */
+  max-width: 600px; /* No excede el ancho en pantallas grandes */
+}
+
+.instructions-text {
+  margin: 15px 0;
+  color: #d1d5db;
+  font-size: 1em; /* Tamaño ajustable */
+}
+
+/* Examples with colors */
+.example-container {
+  margin: 20px 0;
+}
+
+.example-row {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra cada fila */
+  margin: 10px 0;
+  gap: 10px; /* Espaciado entre elementos */
+}
+
+.example-box {
+  width: 40px;
+  height: 40px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+}
+
+.example-box.green {
+  background-color: #34c759; /* Green box */
+  color: #ffffff;
+}
+
+.example-box.yellow {
+  background-color: #ffcc00; /* Yellow box */
+  color: #000000;
+}
+
+.example-box.gray {
+  background-color: #808080; /* Gray box */
+  color: #ffffff;
+}
+
+/* Button styles */
+.start-button {
+  background-color: #34c759;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%; /* Ajuste dinámico */
+  max-width: 300px; /* Máximo ancho */
+  transition: background-color 0.3s ease; /* Animación suave */
+}
+
+.start-button:hover {
+  background-color: #2aa94d;
+}
+
+/* Link button styles */
+.link-button {
+  background: none;
+  border: none;
+  color: #34c759;
+  cursor: pointer;
+  font-size: 1em;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.link-button:hover {
+  color: #2aa94d;
+}
+
+/* Footer styles */
+.instructions-footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #aaaaaa;
+}
+
+.instructions-footer a {
+  color: #34c759;
+  text-decoration: none;
+}
+
+.instructions-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments for medium devices */
+@media (max-width: 768px) {
+  .game-title {
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+
+  .example-box {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2em;
+    line-height: 35px;
+  }
+
+  .start-button {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  .instructions-content {
+    font-size: 0.95em;
+  }
+}
+
+/* Responsive adjustments for small devices */
+@media (max-width: 480px) {
+  .game-title {
+    font-size: 1.8em;
+    padding-top: 200px;
+    flex-direction: column; /* Título se apila verticalmente */
+  }
+
+  .example-box {
+    width: 30px;
+    height: 30px;
+    font-size: 1em;
+    line-height: 30px;
+  }
+
+  .start-button {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  .instructions-content {
+    font-size: 0.9em;
+  }
+}

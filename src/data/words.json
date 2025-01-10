@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "word": "TOKEN",
+      "description": "Un token es una unidad de valor emitida por una organización."
+    },
+    {
+      "id": 2,
+      "word": "RUBIA",
+      "description": "Rubia se refiere a algo o alguien con cabello claro."
+    },
+    {
+      "id": 3,
+      "word": "TORRE",
+      "description": "Una estructura alta y estrecha utilizada en edificios o defensas."
+    }
+  ]
+  

@@ -1,0 +1,34 @@
+/* Felicitaciones Overlay */
+.congratulations-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo translúcido */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Por encima de todo */
+  }
+  
+  .congratulations-message {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .congratulations-message h2 {
+    margin: 0;
+    font-size: 2em;
+    color: #34c759;
+  }
+  
+  .congratulations-message p {
+    margin: 15px 0 0;
+    font-size: 1.2em;
+    color: #555555;
+  }
+  

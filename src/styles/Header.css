@@ -1,0 +1,55 @@
+/* General Header Styles */
+header {
+    text-align: center;
+    padding: 20px;
+    /*background-color: #222; /* Fondo oscuro para el header */
+    color: #34c759; /* Color de texto verde */
+    font-family: 'Arial', sans-serif;
+    border-bottom: 2px solid #34c759; /* Línea inferior para destacar */
+  }
+  
+  /* Título principal */
+  header h1:first-of-type {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  /* ID de la palabra del día */
+  header h1:last-of-type {
+    font-size: 1.5em;
+    margin-top: 10px;
+    font-weight: normal;
+    color: #d1d5db; /* Gris claro para el ID */
+  }
+  
+  /* Responsividad para pantallas medianas */
+  @media (max-width: 768px) {
+    header {
+      padding: 15px;
+    }
+  
+    header h1:first-of-type {
+      font-size: 2em;
+    }
+  
+    header h1:last-of-type {
+      font-size: 1.3em;
+    }
+  }
+  
+  /* Responsividad para pantallas pequeñas */
+  @media (max-width: 480px) {
+    header {
+      padding: 10px;
+    }
+  
+    header h1:first-of-type {
+      font-size: 1.8em;
+    }
+  
+    header h1:last-of-type {
+      font-size: 1.2em;
+    }
+  }
+  
