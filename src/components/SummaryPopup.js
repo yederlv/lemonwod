@@ -52,7 +52,7 @@ function SummaryPopup({ guesses, wordOfTheDay, description }) {
         <strong>WOD:</strong> {wordInfo.word}
       </p>
       <p className="description">
-        <strong>Descripción:</strong> {wordInfo.description}
+        {wordInfo.description}
       </p>
 
       <div className="next-word-timer">
