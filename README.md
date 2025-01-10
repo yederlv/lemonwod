@@ -34,34 +34,35 @@ lemon-wod/
 ├── package.json            # Dependencias y scripts del proyecto
 ├── .gitignore              # Archivos y carpetas a ignorar por Git
 └── yarn.lock               # Archivo de control de versiones de Yarn
+```
+
+---
 
 
 ## 🛠️ Instalación y Despliegue en Local
 
 Sigue los pasos para configurar y ejecutar el proyecto en tu entorno local:
 
-### 1. Clonar el Repositorio
-
-```bash
+1. Clonar el Repositorio
 git clone git@github.com:tuusuario/lemon-wod.git
 cd lemon-wod
 2. Instalar Dependencias
 Usa npm o yarn para instalar las dependencias:
 
-# Con npm
+### Con npm
 npm install
 
-# Con yarn
+### Con yarn
 yarn install
 3. Ejecutar el Proyecto en Local
-# Con npm
+### Con npm
 npm start
 
-# Con yarn
+### Con yarn
 yarn start
 El proyecto estará disponible en http://localhost:3000.
 
-🎨 Características del Proyecto
+## 🎨 Características del Proyecto
 
 ✅ Lógica del Juego
 Adivina la palabra oculta de 5 letras en un máximo de 6 intentos.
@@ -92,7 +93,7 @@ Sigue las instrucciones para completar el despliegue.
 
 Este proyecto está bajo la licencia MIT. Siéntete libre de usarlo, modificarlo y contribuir.
 
-📬 Contacto
+# 📬 Contacto
 
 Si tienes dudas, sugerencias o quieres contribuir al proyecto:
 
