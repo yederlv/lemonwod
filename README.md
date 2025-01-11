@@ -1,6 +1,8 @@
 # 🍋 Lemon WOD
 
-Lemon WOD es un juego diario de palabras inspirado en "La Palabra del Día". El objetivo es adivinar la palabra oculta de 5 letras en un máximo de 6 intentos. El proyecto incluye características como colores visuales para indicar progreso, un temporizador para la próxima palabra, y una experiencia interactiva optimizada.
+[Lemon WOD](https://yederlv.github.io/lemonwod/) es un juego diario de palabras inspirado en "La Palabra del Día".
+
+El objetivo es adivinar la palabra oculta de 5 letras en un máximo de 6 intentos. El proyecto incluye características como colores visuales para indicar progreso, un temporizador para la próxima palabra, y una experiencia interactiva optimizada.
 
 ---
 
@@ -23,6 +25,7 @@ lemon-wod/
 │   └── data/               # Datos del juego
 │       └── words.json      # Palabras del día y descripciones
 │   ├── styles/             # Archivos de estilos CSS
+│   │   ├── Game.css        # Estilos del juego
 │   │   ├── GameGrid.css    # Estilos de la grilla
 │   │   ├── Header.css      # Estilos del encabezado
 │   │   ├── Instructions.css # Estilos de la pantalla de instrucciones
@@ -44,52 +47,68 @@ lemon-wod/
 Sigue los pasos para configurar y ejecutar el proyecto en tu entorno local:
 
 1. Clonar el Repositorio
+```
 git clone git@github.com:tuusuario/lemon-wod.git
 cd lemon-wod
+```
 2. Instalar Dependencias
 Usa npm o yarn para instalar las dependencias:
-
-### Con npm
+```
+# Con npm
 npm install
 
-### Con yarn
+# Con yarn
 yarn install
+```
 3. Ejecutar el Proyecto en Local
-### Con npm
+``` 
+# Con npm
 npm start
 
-### Con yarn
+# Con yarn
 yarn start
+```
 El proyecto estará disponible en http://localhost:3000.
 
 ## 🎨 Características del Proyecto
 
 ✅ Lógica del Juego
-Adivina la palabra oculta de 5 letras en un máximo de 6 intentos.
-Sistema de colores:
-🟩 Verde: Letra correcta en la posición correcta.
-🟨 Amarillo: Letra correcta en una posición incorrecta.
-⬛ Gris: Letra incorrecta.
+- Adivina la palabra oculta de 5 letras en un máximo de 6 intentos.
+- Sistema de colores:
+  - 🟩 Verde: Letra correcta en la posición correcta.
+  - 🟨 Amarillo: Letra correcta en una posición incorrecta.
+  - ⬛ Gris: Letra incorrecta.
+  - 
 ✅ Palabra del Día
-Cada día hay una nueva palabra que se almacena en el archivo words.json.
-La palabra del día incluye un ID y una breve descripción.
+- Cada día hay una nueva palabra que se almacena en el archivo words.json.
+- La palabra del día incluye un ID y una breve descripción.
+  
 ✅ Pantalla de Resumen
-Muestra el progreso del jugador con emojis 🟩🟨⬛.
-Botón para copiar el progreso y compartir en redes sociales.
-Temporizador que indica el tiempo restante para la próxima palabra.
+
+- Muestra el progreso del jugador con emojis 🟩🟨⬛.
+- Botón para copiar el progreso y compartir en redes sociales.
+- Temporizador que indica el tiempo restante para la próxima palabra.
+  
 ✅ Responsividad
-Diseño adaptado para pantallas de escritorio y dispositivos móviles.
-🚀 Despliegue en Producción
+
+- Diseño adaptado para pantallas de escritorio y dispositivos móviles.
+
+## 🚀 Despliegue en Producción
 
 Puedes desplegar el proyecto fácilmente en servicios como Netlify, Vercel o GitHub Pages.
 
-Usando Vercel:
-Instalar el CLI de Vercel:
+### Usando Vercel:
+1. Instalar el CLI de Vercel:
+```
 npm install -g vercel
-Ejecutar el comando de despliegue:
+```
+2. Ejecutar el comando de despliegue:
+```
 vercel
-Sigue las instrucciones para completar el despliegue.
-🛡️ Licencia
+```
+3. Sigue las instrucciones para completar el despliegue.
+
+## 🛡️ Licencia
 
 Este proyecto está bajo la licencia MIT. Siéntete libre de usarlo, modificarlo y contribuir.
 
@@ -97,7 +116,8 @@ Este proyecto está bajo la licencia MIT. Siéntete libre de usarlo, modificarlo
 
 Si tienes dudas, sugerencias o quieres contribuir al proyecto:
 
-GitHub: @yederlv
-Twitter: @yederdev
-Instagram: @tyeder.dev
-¡Gracias por jugar a 🍋 Lemon WOD 🍋!
+* GitHub: @yederlv
+* Twitter: @yederdev
+* Instagram: @tyeder.dev
+
+> ¡Gracias por jugar a 🍋 Lemon WOD 🍋!
