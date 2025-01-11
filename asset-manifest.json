@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lemonwod/static/css/main.1163f9e9.css",
-    "main.js": "/lemonwod/static/js/main.07c1c635.js",
+    "main.js": "/lemonwod/static/js/main.7d425d11.js",
     "static/js/488.7ddcc4ab.chunk.js": "/lemonwod/static/js/488.7ddcc4ab.chunk.js",
     "index.html": "/lemonwod/index.html",
     "main.1163f9e9.css.map": "/lemonwod/static/css/main.1163f9e9.css.map",
-    "main.07c1c635.js.map": "/lemonwod/static/js/main.07c1c635.js.map",
+    "main.7d425d11.js.map": "/lemonwod/static/js/main.7d425d11.js.map",
     "488.7ddcc4ab.chunk.js.map": "/lemonwod/static/js/488.7ddcc4ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1163f9e9.css",
-    "static/js/main.07c1c635.js"
+    "static/js/main.7d425d11.js"
   ]
 }
