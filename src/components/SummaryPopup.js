@@ -67,6 +67,7 @@ function SummaryPopup({ guesses, wordOfTheDay, description }) {
         </button>
         <div className="social-icons">
           <a
+            onClick={() => alert('En desarrollo 👨🏻‍💻🦝')}
             href="https://twitter.com"
             className="social-icon twitter"
             target="_blank"
@@ -75,6 +76,7 @@ function SummaryPopup({ guesses, wordOfTheDay, description }) {
             Twitter
           </a>
           <a
+            onClick={() => alert('En desarrollo 👨🏻‍💻🦝')}
             href="https://wa.me"
             className="social-icon whatsapp"
             target="_blank"
@@ -83,6 +85,7 @@ function SummaryPopup({ guesses, wordOfTheDay, description }) {
             WhatsApp
           </a>
           <a
+            onClick={() => alert('En desarrollo 👨🏻‍💻🦝')}
             href="https://t.me/lemonlat"
             className="social-icon telegram"
             target="_blank"
