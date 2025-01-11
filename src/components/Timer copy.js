@@ -20,12 +20,6 @@ function Timer() {
       const now = Date.now();
       const timeDifference = Math.max(0, nextWordTime - now);
       setTimeLeft(Math.floor(timeDifference / 1000)); // Convertir a segundos
-
-      // Limpiar localStorage cuando se llega a la medianoche
-      if (timeDifference <= 0) {
-        localStorage.clear(); // Limpia todo el localStorage
-        localStorage.setItem('nextWordTime', getNextMidnight()); // Reinicia el tiempo para la siguiente medianoche
-      }
     };
 
     // Actualizar el tiempo restante al montar el componente
