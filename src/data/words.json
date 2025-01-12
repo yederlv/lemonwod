@@ -8,6 +8,11 @@
       "id": 2,
       "word": "HASHI",
       "description": "Hace referencia al “hashing”, un proceso clave en blockchain para garantizar la seguridad y validación de transacciones."
+    },
+    {
+      "id": 3,
+      "word": "POOLS",
+      "description": "Las liquidity pools son una de las herramientas más importantes dentro de las Finanzas Descentralizadas (DeFi). En concreto, las liquidity pools son una colección de fondos depositados en un contrato inteligente. "
     }
   ]
   
